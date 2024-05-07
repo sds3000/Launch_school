@@ -4,7 +4,7 @@ names = (
     "Pudding",
     "Neptune",
     "Darwin",
-)
+)  # tuple example
 
 pets = {
     "Asta": "dog",
@@ -12,4 +12,4 @@ pets = {
     "Pudding": "cat",
     "Neptune": "fish",
     "Darwin": "lizard",
-}
+}  # dictionary example
