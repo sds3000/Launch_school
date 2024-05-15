@@ -30,3 +30,7 @@ age, then calculates and reports the future age 10, 20, 30, and
 # while years <= 40:
 #     print(f"In {years}, you will be {age + years} years old.")
 #     years += 10
+
+age = 20
+for years in range(10, 50, 10):
+    print(f"in {years}, you will be {age + years}")
