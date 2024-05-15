@@ -39,10 +39,34 @@ my_list = [
     16,
     0,
 ]
-lst = []
-for x in my_list:
-    if x % 2 == 0:
-        lst.append("even")
-        continue
-    lst.append("odd")
-pp(lst)
+# lst = []
+# for x in my_list:
+#     if x % 2 == 0:
+#         lst.append("even")
+#         continue
+#     lst.append("odd")
+# lst1 = ["even" if x % 2 == 0 else "odd" for x in my_list]
+# pp(lst1)
+
+my_tuple = (1, "a", "1", 3, [7], 3.1415, -4, None, {1, 2, 3}, False)
+
+
+def find_integers(tup):
+    lst = []
+    for x in tup:
+        if type(x) is int:
+            lst.append(x)
+    return lst
+
+
+integers = find_integers(my_tuple)
+print(integers)  # [1, 3, -4]
+my_set = {
+    "Fluffy",
+    "Butterscotch",
+    "Pudding",
+    "Cheddar",
+    "Cocoa",
+}
+dictionary = {x: len(x) for x in my_set}
+print(dictionary)
