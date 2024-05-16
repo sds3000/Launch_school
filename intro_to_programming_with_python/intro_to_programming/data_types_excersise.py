@@ -1,15 +1,14 @@
 names = (
     "Asta",
-    "Butterschotch",
+    "Butterscotch",
     "Pudding",
     "Neptune",
-    "Darwin",
-)  # tuple example
-
+    "Darwing",
+)
 pets = {
     "Asta": "dog",
     "Butterscotch": "cat",
     "Pudding": "cat",
     "Neptune": "fish",
     "Darwin": "lizard",
-}  # dictionary example
+}
