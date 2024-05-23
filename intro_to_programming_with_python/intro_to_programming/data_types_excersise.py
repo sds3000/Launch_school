@@ -1,10 +1,11 @@
 names = (
     "Asta",
     "Butterscotch",
-    "Pudding",
+    "Puding",
     "Neptune",
-    "Darwing",
+    "Darwin",
 )
+
 pets = {
     "Asta": "dog",
     "Butterscotch": "cat",
