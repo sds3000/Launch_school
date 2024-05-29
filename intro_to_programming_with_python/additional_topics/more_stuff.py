@@ -1,4 +1,5 @@
 from math import sqrt
+from datetime import datetime
 
 # print(sqrt(37))
 
@@ -62,4 +63,8 @@ def all_actions():
     print(counter)  # 101
 
 
-all_actions()
+while True:
+    print("Should I stop looping?")
+    answer = input()
+    if answer == "yes":
+        break
