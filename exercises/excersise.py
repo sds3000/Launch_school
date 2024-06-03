@@ -1,5 +1,5 @@
-def multiply(n1, n2):
-    print(n1 * n2)
+def bruce_eckel_quote():
+    print("Python is executable pseudocode.")
 
 
-multiply(12, 4)  # 48
+bruce_eckel_quote()
